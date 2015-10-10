@@ -5,7 +5,7 @@
   "description": "ニコニコのツイッター投稿機能をカスタマイズしたいやつ",
   "content_scripts": [
     {
-      "matches": ["http://www.nicovideo.jp/watch/sm*"],
+      "matches": ["http://www.nicovideo.jp/watch/*"],
       "js": ["jquery.min.js","script.js"],
 	  "run_at": "document_start"
     }
